@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Model\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Model\Messenger\" />
+    <None Remove="Model\User\" />
+    <None Remove="Model\Media\" />
+    <None Remove="Validation\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Dtos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Model\Messenger\" />
+    <Folder Include="Model\User\" />
+    <Folder Include="Model\Media\" />
+    <Folder Include="Validation\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Dtos\" />
+  </ItemGroup>
+</Project>

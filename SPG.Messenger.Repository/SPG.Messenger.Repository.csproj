@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SPG.Messenger.Domain\SPG.Messenger.Domain.csproj" />
+    <ProjectReference Include="..\SPG.Messenger.Infrastructure\SPG.Messenger.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Builder\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Builder\" />
+  </ItemGroup>
+</Project>

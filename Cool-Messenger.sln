@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPG.Messenger.Domain", "SPG.Messenger.Domain\SPG.Messenger.Domain.csproj", "{F8FB400C-15EE-40A9-A900-C1E16DA7EFC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPG.Messenger.Infrastructure", "SPG.Messenger.Infrastructure\SPG.Messenger.Infrastructure.csproj", "{AF9CC158-1C12-4046-9989-1C1F1C11A057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPG.Messenger.Domain.Test", "SPG.Messenger.Domain.Test\SPG.Messenger.Domain.Test.csproj", "{7C30FC56-8EBC-49EE-8421-AC3D95C94227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPG.Messenger.Infrastructure.Test", "SPG.Messenger.Infrastructure.Test\SPG.Messenger.Infrastructure.Test.csproj", "{EC613179-C512-4F6B-833B-5E99D099DDBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6AAB35AA-DF29-4E15-B09B-BE79CF3D2435}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPG.Messenger.Repository", "SPG.Messenger.Repository\SPG.Messenger.Repository.csproj", "{3CD8348E-5E98-4659-9A12-1C5EDD5E0C49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPG.Messenger.Application", "SPG.Messenger.Application\SPG.Messenger.Application.csproj", "{730909F0-7D37-4345-9EB4-AAA24DFC2758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPG.Messenger.Application.Test", "SPG.Messenger.Application.Test\SPG.Messenger.Application.Test.csproj", "{AC508E1E-F925-4341-8FCB-42630879697A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPG.Messenger.API", "SPG.Messenger.API\SPG.Messenger.API.csproj", "{1C983DC1-3F3C-4FE4-9790-A56825DD5D36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPG.Messenger.Repository.Test", "SPG.Messenger.Repository.Test\SPG.Messenger.Repository.Test.csproj", "{FA5C59A5-8B86-4D72-A1A1-CFCADFFFF86A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8FB400C-15EE-40A9-A900-C1E16DA7EFC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FB400C-15EE-40A9-A900-C1E16DA7EFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FB400C-15EE-40A9-A900-C1E16DA7EFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FB400C-15EE-40A9-A900-C1E16DA7EFC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9CC158-1C12-4046-9989-1C1F1C11A057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9CC158-1C12-4046-9989-1C1F1C11A057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9CC158-1C12-4046-9989-1C1F1C11A057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9CC158-1C12-4046-9989-1C1F1C11A057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C30FC56-8EBC-49EE-8421-AC3D95C94227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C30FC56-8EBC-49EE-8421-AC3D95C94227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C30FC56-8EBC-49EE-8421-AC3D95C94227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C30FC56-8EBC-49EE-8421-AC3D95C94227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC613179-C512-4F6B-833B-5E99D099DDBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC613179-C512-4F6B-833B-5E99D099DDBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC613179-C512-4F6B-833B-5E99D099DDBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC613179-C512-4F6B-833B-5E99D099DDBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD8348E-5E98-4659-9A12-1C5EDD5E0C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD8348E-5E98-4659-9A12-1C5EDD5E0C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD8348E-5E98-4659-9A12-1C5EDD5E0C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD8348E-5E98-4659-9A12-1C5EDD5E0C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730909F0-7D37-4345-9EB4-AAA24DFC2758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730909F0-7D37-4345-9EB4-AAA24DFC2758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730909F0-7D37-4345-9EB4-AAA24DFC2758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730909F0-7D37-4345-9EB4-AAA24DFC2758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC508E1E-F925-4341-8FCB-42630879697A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC508E1E-F925-4341-8FCB-42630879697A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC508E1E-F925-4341-8FCB-42630879697A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC508E1E-F925-4341-8FCB-42630879697A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C983DC1-3F3C-4FE4-9790-A56825DD5D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C983DC1-3F3C-4FE4-9790-A56825DD5D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C983DC1-3F3C-4FE4-9790-A56825DD5D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C983DC1-3F3C-4FE4-9790-A56825DD5D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA5C59A5-8B86-4D72-A1A1-CFCADFFFF86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5C59A5-8B86-4D72-A1A1-CFCADFFFF86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5C59A5-8B86-4D72-A1A1-CFCADFFFF86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5C59A5-8B86-4D72-A1A1-CFCADFFFF86A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F985021C-984F-4B21-92C6-E1F26610D7C8}
+	EndGlobalSection
+EndGlobal
